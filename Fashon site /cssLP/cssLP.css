@@ -19,9 +19,20 @@ body{
     height:12px;
     background: #EEEEEE;
     border:1px solid #999;
-    border-radius: 1px;
+    border-radius: 100%;
     transition: background 0.2s linear;
     cursor: pointer;
+}
+#buttonbox{
+    font-size: 18px;
+    color: #eed446;
+    background-color:#670609 ;
+    text-decoration: #adff1d;
+    border: #670609 1px solid;
+    padding: 10px 20 px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 #showcase{
     background-image: url("../images/IMG_8338.jpg");
@@ -44,7 +55,7 @@ body{
     font-size: 20px;
     line-height: 45px;
 }
-#showcase .button{
+#showcase .button {
     font-size: 18px;
     color: #eed446;
     background-color:#670609 ;

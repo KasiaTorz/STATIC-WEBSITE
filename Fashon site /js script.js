@@ -9,7 +9,7 @@ function toggleCB(cb){
     }
 }
 
-
+cb.previousElementSibling.value = cb.dataset.checked;
 
 
 function submitValues(){
