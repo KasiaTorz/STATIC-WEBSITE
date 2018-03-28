@@ -11,6 +11,18 @@ body{
     color: #670609;
     line-height: 1.6em;
 }
+.cb{
+    margin-left:20px;
+    margin-top: 20px;
+    display:inline-block;
+    width:12px;
+    height:12px;
+    background: #EEEEEE;
+    border:1px solid #999;
+    border-radius: 1px;
+    transition: background 0.2s linear;
+    cursor: pointer;
+}
 #showcase{
     background-image: url("../images/IMG_8338.jpg");
     background-size: cover;
