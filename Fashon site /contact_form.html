@@ -2,18 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>contact_form</title>
 </head>
 <body>
 <div class="content">
     <section>
+        <p>Fill in the form below to subscribe to 1 year of Fashon News
+            for only $10. That’s 91% OFF what others pay on the newsstand. </p>
         <form action="#" method="post" autocomplete="off">
             <div class="row">
-                <label id="name"> Name and surname</label>
+                <label id="name">First name</label>
                 <input id="name" type="text" required autofocus="true">
             </div>
             <div class="row">
-                <label id="name">Street</label>
+                <label id="name">Last name</label>
+                <input id="name" type="text" required autofocus="true">
+            </div>
+            <div class="row">
+                <label id="name">Date of birth</label>
+                <input id="date" type="date" required autofocus="true">
+            </div>
+            <div class="row" class="fluid-container">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                       <span class="input-group-addon">
+                        <input type="checkbox" aria-label="Gender">
+                        Female</span>
+                        <span class="input-group-addon">
+                        <input type="checkbox" aria-label="Gender">
+                        Male</span>
+                    </div>
+            </div>
+            <div class="row">
+                <label id="name">Address</label>
                 <input id="name" type="text" required autofocus="true">
             </div>
             <div class="row">
@@ -25,11 +49,15 @@
                 <input id="name" type="text" required autofocus="true">
             </div>
             <div class="row">
+                <label id="name">Country</label>
+                <input id="name" type="text" required autofocus="true">
+            </div>
+            <div class="row">
                 <label id="email"> e-mail</label>
                 <input id="name" type="email" required>
             </div>
             <div class="row">
-                <label id=""> Submit </label>
+                <label id="name"> Place Order</label>
                 <input id="name" type="submit" required>
             </div>
         </form>
