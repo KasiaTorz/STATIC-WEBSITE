@@ -8,7 +8,7 @@
     <title>contact_form</title>
 </head>
 <body>
-git status<div class="content">
+<div class="content">
     <section>
         <p>Fill in the form below to subscribe to 1 year of Fashon News
             for only $10. That’s 91% OFF what others pay on the newsstand. </p>
@@ -17,7 +17,7 @@ git status<div class="content">
                 <input id="titles" type="checkbox" required>
                 <span>Mr</span>
                 <input id="titles" type="checkbox" required>
-                <span>Miss</span>
+                <span>Mr</span>
             </div>
             <div class="row">
                 <label for="name">First name</label>
@@ -29,7 +29,7 @@ git status<div class="content">
             </div>
             <div class="row">
                 <label for="name">Date of birth</label>
-                <input id="date" type="date" required autofocus="true">
+                <input id="date" type="date" pattern="(0?[1-9]|[12][0-9]|3[01])/(0?[1-9]|1[012])/\d{4}" placeholder="YY\MM\DD" required autofocus="true">
             </div>
             <div class="row" class="fluid-container">
                 <div class="col-lg-6">
@@ -73,6 +73,16 @@ git status<div class="content">
                 <label id="name"> Place Order</label>
                 <input id="name" type="submit" required>
             </div>
+                <div id="row">
+                    <input id="logistic" type="checkbox" required>
+                    <span>I understand that unless I tell you otherwise,
+                        I will receive uninterrupted service and access;
+                        my subscription(s) will be automatically renewed
+                        at the end of each subscription term, at the rate(s)
+                        then in effect. I authorize you to fulfill my subscription(s) and charge the credit/debit card if provided, or send me a bill if not. I won't be bothered with any renewal notices, instead, I will receive a clearly marked reminder notice with the then current rate(s) about 30 days prior to charging my credit/debit card or receiving a bill. I may opt out of the automatic renewal at any time by contacting customer
+                        service referenced below and receive a refund for
+                        all undelivered issues. </span>
+                </div>
         </form>
     </section>
 </div>
