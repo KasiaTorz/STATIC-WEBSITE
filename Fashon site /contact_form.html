@@ -8,21 +8,27 @@
     <title>contact_form</title>
 </head>
 <body>
-<div class="content">
+git status<div class="content">
     <section>
         <p>Fill in the form below to subscribe to 1 year of Fashon News
             for only $10. That’s 91% OFF what others pay on the newsstand. </p>
         <form action="#" method="post" autocomplete="off">
+            <div id="row">
+                <input id="titles" type="checkbox" required>
+                <span>Mr</span>
+                <input id="titles" type="checkbox" required>
+                <span>Miss</span>
+            </div>
             <div class="row">
-                <label id="name">First name</label>
+                <label for="name">First name</label>
                 <input id="name" type="text" required autofocus="true">
             </div>
             <div class="row">
-                <label id="name">Last name</label>
+                <label for="name">Last name</label>
                 <input id="name" type="text" required autofocus="true">
             </div>
             <div class="row">
-                <label id="name">Date of birth</label>
+                <label for="name">Date of birth</label>
                 <input id="date" type="date" required autofocus="true">
             </div>
             <div class="row" class="fluid-container">
@@ -37,7 +43,7 @@
                     </div>
             </div>
             <div class="row">
-                <label id="name">Address</label>
+                <label id="for">Address</label>
                 <input id="name" type="text" required autofocus="true">
             </div>
             <div class="row">
@@ -45,12 +51,19 @@
                 <input id="name" type="text" required autofocus="true">
             </div>
             <div class="row">
-                <label id="name"> Zip code</label>
-                <input id="name" type="text" required autofocus="true">
+                <label id="code"> Zip code</label>
+                <input id="code" type="text" pattern="^\d(2)-\d(3)$" placeholder="XX-XXX">
             </div>
             <div class="row">
-                <label id="name">Country</label>
-                <input id="name" type="text" required autofocus="true">
+                <label id="for">Country</label>
+                <input id="country" type="text" list="country">
+                <datalist id="country">
+                    <option value="country"> United State</option>
+                    <option value="country"> United Kindom</option>
+                    <option value="country"> Russia</option>
+                    <option value="country"> Sweden</option>
+                    <option value="country">Poland</option>
+                </datalist>
             </div>
             <div class="row">
                 <label id="email"> e-mail</label>
