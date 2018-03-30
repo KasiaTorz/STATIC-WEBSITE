@@ -13,7 +13,7 @@ background-color: rgb(255,167,144);
 #row{
     width: 50%;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 form label{
     width: 30%;
@@ -21,4 +21,9 @@ form label{
     display: block;
     float: left;
     margin-right:20px ;
+}
+#name #date #code #country{
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
 }
