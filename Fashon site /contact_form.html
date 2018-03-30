@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="cssLP/cssLPcssContact_Form.css">
     <title>contact_form</title>
 </head>
 <body>
@@ -29,7 +30,8 @@
             </div>
             <div class="row">
                 <label for="name">Date of birth</label>
-                <input id="date" type="date" pattern="(0?[1-9]|[12][0-9]|3[01])/(0?[1-9]|1[012])/\d{4}" placeholder="YY\MM\DD" required autofocus="true">
+                <input id="date" type="date" pattern="(0?[1-9]|[12][0-9]|3[01])/(0?[1-9]|1[012])/\d{4}"
+                       placeholder="YY\MM\DD" required autofocus="true">
             </div>
             <div class="row" class="fluid-container">
                 <div class="col-lg-6">
@@ -41,38 +43,38 @@
                         <input type="checkbox" aria-label="Gender">
                         Male</span>
                     </div>
-            </div>
-            <div class="row">
-                <label id="for">Address</label>
-                <input id="name" type="text" required autofocus="true">
-            </div>
-            <div class="row">
-                <label id="name">City</label>
-                <input id="name" type="text" required autofocus="true">
-            </div>
-            <div class="row">
-                <label id="code"> Zip code</label>
-                <input id="code" type="text" pattern="^\d(2)-\d(3)$" placeholder="XX-XXX">
-            </div>
-            <div class="row">
-                <label id="for">Country</label>
-                <input id="country" type="text" list="country">
-                <datalist id="country">
-                    <option value="country"> United State</option>
-                    <option value="country"> United Kindom</option>
-                    <option value="country"> Russia</option>
-                    <option value="country"> Sweden</option>
-                    <option value="country">Poland</option>
-                </datalist>
-            </div>
-            <div class="row">
-                <label id="email"> e-mail</label>
-                <input id="name" type="email" required>
-            </div>
-            <div class="row">
-                <label id="name"> Place Order</label>
-                <input id="name" type="submit" required>
-            </div>
+                </div>
+                <div class="row">
+                    <label id="for">Address</label>
+                    <input id="name" type="text" required autofocus="true">
+                </div>
+                <div class="row">
+                    <label id="name">City</label>
+                    <input id="name" type="text" required autofocus="true">
+                </div>
+                <div class="row">
+                    <label id="code"> Zip code</label>
+                    <input id="code" type="text" pattern="^\d(2)-\d(3)$" placeholder="XX-XXX">
+                </div>
+                <div class="row">
+                    <label id="for">Country</label>
+                    <input id="country" type="text" list="country">
+                    <datalist id="country">
+                        <option value="country"> United State</option>
+                        <option value="country"> United Kindom</option>
+                        <option value="country"> Russia</option>
+                        <option value="country"> Sweden</option>
+                        <option value="country">Poland</option>
+                    </datalist>
+                </div>
+                <div class="row">
+                    <label id="email"> e-mail</label>
+                    <input id="name" type="email" required>
+                </div>
+                <div class="row">
+                    <label id="name"> Place Order</label>
+                    <input id="name" type="submit" required>
+                </div>
                 <div id="row">
                     <input id="logistic" type="checkbox" required>
                     <span>I understand that unless I tell you otherwise,
