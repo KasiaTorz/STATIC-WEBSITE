@@ -1,5 +1,10 @@
 body{
-background-color: rgb(255,167,144);
+    background: url(../images/photo_home.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity:0.9;
 }
 
 #content {
