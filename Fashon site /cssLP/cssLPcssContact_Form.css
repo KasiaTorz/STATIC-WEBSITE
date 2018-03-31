@@ -53,15 +53,20 @@ form label{
 
 .typeAhead {
     flex-basis: 22%;
-    border: 1px solid black;
     width: 52%;
     margin: 0%;
     margin-left: 35%;
 }
 
-#name ul{
+.typeAhead ul{
     list-style-type: none;
     padding: 0;
     flex-basis: 100%;
     border: 1px solid gray;
+    border-radius: 5%;
 }
+
+#name li{
+    border:1px solid black ;
+    padding: 5px;
+ }
