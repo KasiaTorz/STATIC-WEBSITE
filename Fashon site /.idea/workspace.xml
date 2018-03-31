@@ -43,8 +43,8 @@
           <file leaf-file-name="cssLPcssContact_Form.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/cssLP/cssLPcssContact_Form.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="461">
-                  <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+                <state relative-caret-position="521">
+                  <caret line="69" column="27" lean-forward="false" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -198,12 +198,12 @@
       <workItem from="1522315082132" duration="38000" />
       <workItem from="1522336753350" duration="8151000" />
       <workItem from="1522420110774" duration="37000" />
-      <workItem from="1522504602940" duration="3490000" />
+      <workItem from="1522504602940" duration="3598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20335000" />
+    <option name="totallyTimeSpent" value="20443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="684" y="8" width="895" height="733" extended-state="0" />
@@ -623,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cssLP/cssLPcssContact_Form.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        <state relative-caret-position="521">
+          <caret line="69" column="27" lean-forward="false" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
           <folding />
         </state>
       </provider>

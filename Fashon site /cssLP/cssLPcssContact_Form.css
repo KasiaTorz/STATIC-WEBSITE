@@ -66,7 +66,7 @@ form label{
     border-radius: 5%;
 }
 
-#name li{
-    border:1px solid black ;
+.typeAhead li{
+    border:1px solid gray ;
     padding: 5px;
  }
