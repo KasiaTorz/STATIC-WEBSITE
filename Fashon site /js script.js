@@ -17,32 +17,44 @@ function submitValues(){
 }
 
 var wrapper = document.querySelector('.typeAhead');
-var input = document.querySelector('input');
+    console.log ('wrapper');
+    input = wrapper.querySelector('#input');
     list,
-    predifiedValues;
+        predifendValues;
 
 predifendValues= [
     "Capital letter",
      "One word",
      "Without extra sign"
 ];
+
 var createList= function (values){
+    if (list) {
+        wrapper.removeChild(list);
+    }
    var ul = document.createElement('ul');
+    console.log('ul');
+
    values.forEach(function (value) {
     var li = document.createElement('li');
     li.textContent = value;
     ul.appendChild(li);
    });
+
    return ul;
-}
+};
 
 var manageList = function (string){
-    var showValues = predifendValues.filter(function (value) {
+    var showedValues = predifendValues.filter(function (value) {
         return value.indexOf(string) == 0;
     });
-    if (showValues.length){
-        list = createList(showValues);
+
+    if (showedValues.length){
+        list = createList(showedValues);
         wrapper.appendChild(list);
+    } else if (list != null){
+        wrapper.removeChild(list);
+        list = null;
     }
 };
 var onType = function () {
