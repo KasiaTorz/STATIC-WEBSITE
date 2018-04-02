@@ -26,7 +26,10 @@ predifindValues= [
      "One word",
      "Without extra sign"
 ];
-var createList= function (value){
+var createList= function (values){
    var ul = document.createElement('ul');
+   values.forEach(function (value) {
+
+   });
 }
 
