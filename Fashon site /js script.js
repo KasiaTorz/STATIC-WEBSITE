@@ -19,4 +19,3 @@ function submitValues(){
 var wrapper = document.querySelector('typeAhead'),
 var ul = document.querySelector('ul'),
     list,
-    
