@@ -31,6 +31,7 @@ var createList= function (values){
    values.forEach(function (value) {
     var li = document.createElement('li');
     li.textContent = value;
+    ul.appendChild(li);
    });
 }
 
