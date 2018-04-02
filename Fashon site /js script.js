@@ -19,3 +19,11 @@ function submitValues(){
 var wrapper = document.querySelector('typeAhead'),
 var ul = document.querySelector('ul'),
     list,
+    predifindValues;
+predifindValues= [
+    "Capital letter",
+     "One word",
+     "Without extra sign"
+];
+
+
