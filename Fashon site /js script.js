@@ -16,12 +16,12 @@ function submitValues(){
     alert ("cb1=  "+cb1.dataset.checked+"  cb2 = "+cb2.dataset.checked);
 }
 
-var wrapper = document.querySelector('typeAhead');
-var ul = document.querySelector('ul');
+var wrapper = document.querySelector('.typeAhead');
+var input = document.querySelector('input');
     list,
-    predifindValues;
+    predifiedValues;
 
-predifindValues= [
+predifendValues= [
     "Capital letter",
      "One word",
      "Without extra sign"
@@ -37,12 +37,16 @@ var createList= function (values){
 }
 
 var manageList = function (string){
-    var showValues = predifindValues.filter(function (value) {
+    var showValues = predifendValues.filter(function (value) {
         return value.indexOf(string) == 0;
     });
     if (showValues.length){
         list = createList(showValues);
-        wrapper.appendChild(li);
+        wrapper.appendChild(list);
     }
 };
+var onType = function () {
+  manageList(this.value);
+}
 
+input.addEventListener('keyup', onType);
