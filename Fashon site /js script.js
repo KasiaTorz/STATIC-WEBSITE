@@ -16,14 +16,17 @@ function submitValues(){
     alert ("cb1=  "+cb1.dataset.checked+"  cb2 = "+cb2.dataset.checked);
 }
 
-var wrapper = document.querySelector('typeAhead'),
-var ul = document.querySelector('ul'),
+var wrapper = document.querySelector('typeAhead');
+var ul = document.querySelector('ul');
     list,
     predifindValues;
+
 predifindValues= [
     "Capital letter",
      "One word",
      "Without extra sign"
 ];
-
+var createList= function (value){
+   var ul = document.createElement('ul');
+}
 
