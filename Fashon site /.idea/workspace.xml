@@ -14,31 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contact_form.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contact_form.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="495">
+              <caret line="100" column="7" lean-forward="true" selection-start-line="100" selection-start-column="7" selection-end-line="100" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="js script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="indexLP.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/indexLP.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -67,9 +57,9 @@
         <option value="$PROJECT_DIR$/indexLP.html" />
         <option value="$PROJECT_DIR$/cssLP/cssContact_Form.css" />
         <option value="$PROJECT_DIR$/cssLPcssContact_Form.css" />
-        <option value="$PROJECT_DIR$/contact_form.html" />
         <option value="$PROJECT_DIR$/cssLP/cssLPcssContact_Form.css" />
         <option value="$PROJECT_DIR$/js script.js" />
+        <option value="$PROJECT_DIR$/contact_form.html" />
       </list>
     </option>
   </component>
@@ -80,10 +70,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="482" />
-    <option name="y" value="57" />
-    <option name="width" value="350" />
-    <option name="height" value="733" />
+    <option name="x" value="757" />
+    <option name="y" value="5" />
+    <option name="width" value="594" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -191,17 +181,18 @@
       <workItem from="1522336753350" duration="8151000" />
       <workItem from="1522420110774" duration="37000" />
       <workItem from="1522504602940" duration="4515000" />
-      <workItem from="1522670872925" duration="642000" />
+      <workItem from="1522670872925" duration="762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22002000" />
+    <option name="totallyTimeSpent" value="22122000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="482" y="57" width="350" height="733" extended-state="0" />
+    <frame x="757" y="5" width="594" height="736" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4454023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2618243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -603,14 +594,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cssLP/cssContact_Form.css" />
-    <entry file="file://$PROJECT_DIR$/indexLP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cssLP/cssLPcssContact_Form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
@@ -618,10 +601,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact_form.html">
+    <entry file="file://$PROJECT_DIR$/indexLP.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="-495">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -630,6 +613,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="100" column="7" lean-forward="true" selection-start-line="100" selection-start-column="7" selection-end-line="100" selection-end-column="7" />
           <folding />
         </state>
       </provider>
