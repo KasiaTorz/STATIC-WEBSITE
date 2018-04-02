@@ -37,6 +37,8 @@ var createList= function (values){
 }
 
 var manageList = function (string){
-    var 
+    var showValues = predifindValues.filter(function (value) {
+        
+    })
 }
 
