@@ -29,7 +29,8 @@ predifindValues= [
 var createList= function (values){
    var ul = document.createElement('ul');
    values.forEach(function (value) {
-
+    var li = document.createElement('li');
+    li.textContent = value;
    });
 }
 
