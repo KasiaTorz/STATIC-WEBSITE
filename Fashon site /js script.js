@@ -33,5 +33,10 @@ var createList= function (values){
     li.textContent = value;
     ul.appendChild(li);
    });
+   return ul;
+}
+
+var manageList = function (string){
+    var 
 }
 
