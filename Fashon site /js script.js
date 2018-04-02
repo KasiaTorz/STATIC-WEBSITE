@@ -39,7 +39,10 @@ var createList= function (values){
 var manageList = function (string){
     var showValues = predifindValues.filter(function (value) {
         return value.indexOf(string) == 0;
-
-    })
-}
+    });
+    if (showValues.length){
+        list = createList(showValues);
+        wrapper.appendChild(li);
+    }
+};
 
