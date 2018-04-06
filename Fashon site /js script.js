@@ -42,15 +42,22 @@ var createList= function (values){
    });
    var initialValue = input.value;
 
-   var onClick = function (ev){
+   var upDateInput= function (target) {
        input.value= ev.target.textContent;
    };
-   var onMouseOver= function (ev) {
-       input.value= ev.target.textContent;
-   };
-   var onMouseLeave= function () {
 
+   var onClick = function (ev){
+       upDateInput(ev.target)
    };
+
+   var onMouseOver= function (ev) {
+      upDateInput(ev.target)
+   };
+
+   var onMouseLeave= function () {
+    input.value=initialValue;
+   };
+
 
    ul.addEventListener('click',onClick);
     ul.addEventListener('mouseOver',onmouseover());
