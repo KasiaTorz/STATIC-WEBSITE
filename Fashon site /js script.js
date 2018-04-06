@@ -47,11 +47,16 @@ var createList= function (values){
    };
 
    var onClick = function (ev){
-       upDateInput(ev.target)
+       upDateInput(ev.target);
+       ul.removeEventListener('click',onClick);
+       ul.removeEventListener('mouseover',onMouseOver);
+       ul.removeEventListener('mouseleave',onMouseLeave);
+       wrapper.removeChild(ul)
    };
 
    var onMouseOver= function (ev) {
-      upDateInput(ev.target)
+      upDateInput(ev.target);
+
    };
 
    var onMouseLeave= function () {
