@@ -43,6 +43,7 @@ var createList= function (values){
    var initialValue = input.value;
 
    var upDateInput= function (target) {
+       if (target.matches ('li'))
        input.value= ev.target.textContent;
    };
    
@@ -56,7 +57,8 @@ var createList= function (values){
    var onClick = function (ev){
        upDateInput(ev.target);
        removeListener();
-       wrapper.removeChild(ul)
+       wrapper.removeChild(ul);
+       list=null;
    };
 
    var onMouseOver= function (ev) {
