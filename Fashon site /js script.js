@@ -40,6 +40,7 @@ var createList= function (values){
     li.textContent = value;
     ul.appendChild(li);
    });
+   var initialValue = input.value;
 
    var onClick = function (ev){
        input.value= ev.target.textContent;
