@@ -41,6 +41,8 @@ var createList= function (values){
     ul.appendChild(li);
    });
 
+   ul.addEventListener('click',onClick);
+
    return ul;
 };
 
