@@ -59,6 +59,6 @@ var manageList = function (string){
 };
 var onType = function () {
   manageList(this.value);
-}
+};
 
 input.addEventListener('keyup', onType);

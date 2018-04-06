@@ -70,3 +70,7 @@ form label{
     border:1px solid gray ;
     padding: 5px;
  }
+.typeAhead li:hover{
+    background: #adff1d;
+    cursor: pointer;
+}
