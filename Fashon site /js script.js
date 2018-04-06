@@ -41,6 +41,10 @@ var createList= function (values){
     ul.appendChild(li);
    });
 
+   var onClick = function (ev){
+       input.value= ev.target.textContent;
+   }
+
    ul.addEventListener('click',onClick);
 
    return ul;
