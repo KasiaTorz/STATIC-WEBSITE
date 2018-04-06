@@ -45,12 +45,17 @@ var createList= function (values){
    var upDateInput= function (target) {
        input.value= ev.target.textContent;
    };
-
-   var onClick = function (ev){
-       upDateInput(ev.target);
+   
+   var removeListener = function () {
        ul.removeEventListener('click',onClick);
        ul.removeEventListener('mouseover',onMouseOver);
        ul.removeEventListener('mouseleave',onMouseLeave);
+   };
+   
+   
+   var onClick = function (ev){
+       upDateInput(ev.target);
+       removeListener();
        wrapper.removeChild(ul)
    };
 
