@@ -44,6 +44,12 @@ var createList= function (values){
    var onClick = function (ev){
        input.value= ev.target.textContent;
    };
+   var onMouseOver= function (ev) {
+       input.value= ev.target.textContent;
+   };
+   var onMouseLeave= function () {
+
+   };
 
    ul.addEventListener('click',onClick);
     ul.addEventListener('mouseOver',onmouseover());
