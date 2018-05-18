@@ -97,3 +97,12 @@ body{
     background: #429E67;
     color: white;
 }
+/*search-box*/
+.search-box{
+    position: absolute;
+    top: 11%;
+    left:70%;
+    transform:translate(-50%,-50%);
+    background-color: #a68d98;
+    border-radius: 5%;
+}
