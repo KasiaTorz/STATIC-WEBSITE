@@ -119,3 +119,15 @@ body{
     justify-content: center;
     align-items: center; 
 }
+.search-text{
+    border:none;
+    background: none;
+    outline: none;
+    float:left;
+    padding: 0px;
+    color: #EEEEEE;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 0px;
+}
