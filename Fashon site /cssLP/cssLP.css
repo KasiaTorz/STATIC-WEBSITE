@@ -126,8 +126,10 @@ body{
     justify-content: center;
     align-items: center;
     margin-right: 3px;
-    margin-left: 169px;
+    margin-left: 200px;
     margin-top:-25px; 
+    text-align: center;
+    transition: 0.4;
 }
 .search-text{
     border:none;
@@ -142,11 +144,11 @@ body{
     width: 0px;
 }
 .search-box:hover > .search-text{
-    width: 240px;
+    width: 100px;
     padding: 0 6px;
 }
 .search-box:hover > .search-btn{
-    width: 240px;
+    width: 100px;
     padding: 0 6px;
-    
+
 }
