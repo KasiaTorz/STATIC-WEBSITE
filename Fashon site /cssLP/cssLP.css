@@ -98,6 +98,13 @@ body{
     color: white;
 }
 /*search-box*/
+.fas fa-search fa-sm{
+        color: gray;
+        margin-right: -28px;
+        margin-top: -49px;
+        margin-left: 0px;
+        margin-bottom: -31px;
+}
 .search-box{
     position: absolute;
     top: 11%;
