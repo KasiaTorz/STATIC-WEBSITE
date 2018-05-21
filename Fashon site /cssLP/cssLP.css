@@ -100,10 +100,10 @@ body{
 /*search-box*/
 .fas fa-search fa-sm{
         color: gray;
-        margin-right: -28px;
-        margin-top: -49px;
-        margin-left: 0px;
-        margin-bottom: -31px;
+        margin-right: -22px;
+        margin-top: 1px;
+        margin-left: 167px;
+        margin-bottom: -147px;
 }
 .search-box{
     position: absolute;
@@ -124,7 +124,10 @@ body{
     background-color: #a68d98;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    margin-right: 3px;
+    margin-left: 169px;
+    margin-top:-25px; 
 }
 .search-text{
     border:none;
@@ -137,4 +140,8 @@ body{
     transition: 0.4s;
     line-height: 20px;
     width: 0px;
+}
+.search-box:hover > .search-text{
+    width: 240px;
+    padding: 0 6px;
 }
