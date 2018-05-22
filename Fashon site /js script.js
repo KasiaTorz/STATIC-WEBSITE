@@ -95,3 +95,9 @@ var onType = function () {
 };
 
 input.addEventListener('keyup', onType);
+
+/*search filter*/
+function clean(e){
+var textInput = document.getElementById('search-input');
+console.log('text-input');
+}
