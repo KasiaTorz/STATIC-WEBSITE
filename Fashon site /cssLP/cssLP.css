@@ -110,24 +110,21 @@ body{
     top: 11%;
     left:70%;
     transform:translate(-50%,-50%);
-    background-color: #a68d98;
+    background-color: #a00c0c;
     border-radius: 5%;
     height: 27px;
     padding:10px;  
 }
 .search-btn{
-    color:gray;
+    color:whitesmoke;
     float: right;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #a68d98;
+    /*background-color: #a68d98;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 3px;
-    margin-left: 200px;
-    margin-top:-25px; 
     text-align: center;
     transition: 0.4;
 }
@@ -152,3 +149,4 @@ body{
     padding: 0 6px;
 
 }
+
