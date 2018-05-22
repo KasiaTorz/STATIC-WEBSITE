@@ -108,11 +108,11 @@ body{
 .search-box{
     position: absolute;
     top: 11%;
-    left:70%;
+    left:780%;
     transform:translate(-50%,-50%);
     background-color: #a00c0c;
     border-radius: 5%;
-    height: 27px;
+    height: 40px;
     padding:10px;  
 }
 .search-btn{
