@@ -108,7 +108,7 @@ body{
 .search-box{
     position: absolute;
     top: 11%;
-    left:780%;
+    left:80%;
     transform:translate(-50%,-50%);
     background-color: #a00c0c;
     border-radius: 5%;
