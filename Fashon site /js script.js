@@ -98,13 +98,15 @@ input.addEventListener('keyup', onType);
 
 /*search filter*/
 function clean(e){
+var textInput = document.getElementById('search-input');
+var regex= /[^a-z 0-9?!.,]/gi;
+
     if(str.search(RegExp)> -1){
         document.write("found");
     } else{
         document.write("not found");
     }
-var textInput = document.getElementById('search-input');
-var regex= /[^a-z 0-9?!.,]/gi;
+
 textInput.value= textInput.value.replace(regex,"fudge ");
 
 }
