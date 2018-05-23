@@ -101,10 +101,10 @@ function clean(e){
 var textInput = document.getElementById('search-input');
 var regex= /[^a-z 0-9?!.,]/gi;
 
-    if(str.search(regex)> -1){
+    if(textInput.value.search(regex)> -1){
         document.write("found");
     } else{
-        document.write("not found");
+        document.getElementById('search-input').innerHTML=("not found");
     }
 
 textInput.value= textInput.value.replace(regex,"fudge ");
