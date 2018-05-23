@@ -50,6 +50,12 @@ form label{
     border-radius: 4px;
 
 }
+.input-group {
+	position: relative;
+	display: table;
+	border-collapse: separate;
+	margin-left: 352px;
+
 
 .typeAhead {
     flex-basis: 22%;
