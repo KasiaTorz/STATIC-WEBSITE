@@ -102,7 +102,7 @@ var textInput = document.getElementById('search-input');
 var regex= /[^a-z 0-9?!.,]/gi;
 
     if(textInput.value.search(regex)> -1){
-        document.write("found");
+        document.getElementById('search-input').innerHTML=("found");
     } else{
         document.getElementById('search-input').innerHTML=("not found");
     }
