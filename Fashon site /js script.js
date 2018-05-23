@@ -99,7 +99,7 @@ input.addEventListener('keyup', onType);
 /*search filter*/
 function clean(e){
 var textInput = document.getElementById('search-input');
-var regex= /[^h-p]/gi;
+var regex= /[^a-z 0-9?!.,]/gi;
 textInput.value= textInput.value.replace(regex,"fudge ");
 
 }
