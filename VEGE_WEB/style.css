@@ -10,7 +10,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-    margin:0;
+    margin:100px;
     padding:0;
     border:0;
     outline:0;
@@ -399,7 +399,7 @@ section#points-of-sale ul{
     border: 0;
     outline: 0;
     font-size: 100%;
-    vertical-align: baseline;
+    /*vertical-align: baseline;*/
     background: transparent;
     font-family: arial;
 
