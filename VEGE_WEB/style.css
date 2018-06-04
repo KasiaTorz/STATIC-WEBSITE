@@ -116,6 +116,15 @@ a {
     vertical-align:baseline;
     background:transparent;
 }
+#social-media{
+        display: inline-block;
+        font-size: inherit;
+        height: 1em;
+        overflow: visible;
+        vertical-align: 125em;
+        color: #f29fee;
+        margin: 44px 69px 46px 37px auto;
+}
 
 /* change colours to suit your needs */
 ins {
