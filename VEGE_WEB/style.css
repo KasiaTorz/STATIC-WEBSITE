@@ -117,19 +117,17 @@ a {
     background:transparent;
 }
 #social-media{
-    
-        display: inline-block;
-        font-size: 20px;
-        height: 1em;
-        overflow: visible;
-        vertical-align: 125em;
-        color: #f32be9;
-        top:50%;
-        left:50%;
-        text-align: right;
-        transform: translate(-50%, -50%);
-
-        
+    display: inline-block;
+    font-size: 20px;
+    height: 9px;
+    overflow: visible;
+    vertical-align: 125em;
+    color: #f32be9;
+    top:50%;
+    left:50%;
+    text-align: right;
+    transform: translate(-50%, -50%);
+    width: 49px      
 }
 #media-link{
     width: 600px;
