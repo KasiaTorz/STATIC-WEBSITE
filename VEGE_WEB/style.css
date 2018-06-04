@@ -122,8 +122,13 @@ a {
         height: 1em;
         overflow: visible;
         vertical-align: 125em;
-        color: #f29fee;
-        margin: 44px 69px 46px 37px auto;
+        color: #f32be9;
+        margin-top: 50px;
+}
+#media-link{
+    width: 600px;
+    height: 200px;
+    border: #000 solid ;
 }
 
 /* change colours to suit your needs */
