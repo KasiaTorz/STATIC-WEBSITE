@@ -124,6 +124,9 @@ a {
         vertical-align: 125em;
         color: #f32be9;
         margin-top: 50px;
+        margin-bottom:1px;
+        margin-left:400px;
+        margin-right: 20px;
 }
 #media-link{
     width: 600px;
