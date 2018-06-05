@@ -117,7 +117,7 @@ a {
     background:transparent;
 }
 #social-media{
-    display: inline-block;
+    display: inline-flex;
     font-size: 20px;
     height: 9px;
     overflow: visible;
