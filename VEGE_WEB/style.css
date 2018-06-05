@@ -116,7 +116,7 @@ a {
     vertical-align:baseline;
     background:transparent;
 }
-#social-media a{
+#social-media {
     display: inline-flex;
     font-size: 20px;
     height: 40px;
@@ -127,7 +127,13 @@ a {
     left:50%;
     text-align: right;
     transform: translate(-50%, -50%);
-    width: 40px      
+    width: 40px;
+    background:#60575f;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+
+
 }
 #media-link{
     width: 600px;
