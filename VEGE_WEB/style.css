@@ -116,10 +116,10 @@ a {
     vertical-align:baseline;
     background:transparent;
 }
-#social-media{
+#social-media a{
     display: inline-flex;
     font-size: 20px;
-    height: 9px;
+    height: 40px;
     overflow: visible;
     vertical-align: 125em;
     color: #f32be9;
@@ -127,7 +127,7 @@ a {
     left:50%;
     text-align: right;
     transform: translate(-50%, -50%);
-    width: 49px      
+    width: 40px      
 }
 #media-link{
     width: 600px;
@@ -246,7 +246,7 @@ header nav{
 }
 
 header nav a{
-    color: rgb(197, 48, 48);
+    color: #f32be9;
     text-decoration: none;
     font-family: arial;
 }
