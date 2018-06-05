@@ -275,10 +275,11 @@ header nav span{
     overflow: hidden;
     /*position: relative;*/
     margin-top: 0px;
+    margin: 5px;
 }
 
 .banner-overlay{
-    position: absolute;
+    position: relative;
     top: 20%;
     width: 100%;
 }
@@ -287,6 +288,7 @@ header nav span{
     color: #fff;
     text-transform: uppercase;
     font-size: 72px;
+    position: relative;
 }
 
 #lead-banner p{
