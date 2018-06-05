@@ -132,7 +132,7 @@ a {
 #media-link{
     width: 600px;
     height: 50px;
-    border: #000 solid ;
+    border: gray 5px solid;
     margin-top: 50px;
     margin-bottom:1px;
     margin-left:400px;
@@ -246,7 +246,7 @@ header nav{
 }
 
 header nav a{
-    color: #fff;
+    color: rgb(197, 48, 48);
     text-decoration: none;
     font-family: arial;
 }
@@ -273,7 +273,8 @@ header nav span{
 #lead-banner{
     max-height: 440px;
     overflow: hidden;
-    position: relative;
+    /*position: relative;*/
+    margin-top: 0px;
 }
 
 .banner-overlay{
