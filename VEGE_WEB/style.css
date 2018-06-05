@@ -118,7 +118,7 @@ a {
 }
 #social-media {
     display: inline-flex;
-    font-size: 20px;
+    font-size: 26px;
     height: 40px;
     overflow: visible;
     vertical-align: 125em;
@@ -134,6 +134,7 @@ a {
     justify-content: center;
     align-items: center;
     transition: 0.4s;
+
 }
 #social-media:hover{
     background: rgb(228,64,95);
