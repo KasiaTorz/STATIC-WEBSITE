@@ -145,6 +145,9 @@ a {
 #social-media i{
 transition: 0.4s all;
 }
+#social-media:hover i{
+    transform: scale(1.6) rotate(25deg);
+}
 
 #media-link{
     width: 600px;
