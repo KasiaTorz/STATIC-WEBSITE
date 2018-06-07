@@ -136,9 +136,13 @@ a {
     transition: 0.4s;
 
 }
+
 #social-media:hover{
     background: rgb(228,64,95);
+}
 
+#social-media >i{
+    
 }
 #media-link{
     width: 600px;
