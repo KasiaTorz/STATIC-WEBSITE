@@ -139,10 +139,11 @@ a {
 
 #social-media:hover{
     background: rgb(228,64,95);
+    
 }
 
-#social-media:hover >i{
-    transform: scale(1.6) rotate(25deg);
+#social-media i{
+transition: 0.4s all;
 }
 
 #media-link{
