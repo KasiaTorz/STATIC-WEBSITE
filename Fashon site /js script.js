@@ -110,3 +110,11 @@ var regex= /[^a-z 0-9?!.,]/gi;
 textInput.value= textInput.value.replace(regex,"fudge ");
 
 }
+
+/*=======================SideNav Overlay====================*/
+function opanNav(){
+    document.getElementById("mySideNav").style.width= "250px";
+}
+function closeNav() {
+    document.getElementById("mySideNav").style.width = "0";
+} 
