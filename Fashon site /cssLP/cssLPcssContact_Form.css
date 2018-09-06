@@ -18,8 +18,7 @@ body{
 #row{
     width: 50%;
     margin: auto;
-    margin-botton: 40px;
-
+    margin-bottom:40px;
 }
 form label{
     width: 30%;
@@ -55,7 +54,7 @@ form label{
 	display: table;
 	border-collapse: separate;
 	margin-left: 352px;
-
+}
 
 .typeAhead {
     flex-basis: 22%;
