@@ -41,11 +41,21 @@ body{
     z-index: 1;
     top:0;
     left:0;
-    background-color: #3e5a65;
+    background-color: #e7f0f3;
     overflow-x: hidden;
     padding-top:60px;
     transition: 0.5s;
-
+}
+.sidenav a{
+    padding: 8px 8px 8px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #176786;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover{
+    color: #e7f0f3;
 }
 #showcase{
     background-image: url("../images/IMG_8338.jpg");
