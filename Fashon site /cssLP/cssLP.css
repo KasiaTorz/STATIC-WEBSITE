@@ -34,19 +34,19 @@ body{
     margin-top: 20px;
     margin-left: 20px;
 }
-#sidenav{
+#mySideNav{
     height: 100%;
-    width: 0;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top:0;
     left:0;
-    background-color: #e7f0f3;
+    background-color: #215c70;
     overflow-x: hidden;
     padding-top:60px;
     transition: 0.5s;
 }
-#sidenav a{
+#mySideNav a{
     padding: 8px 8px 8px 30px;
     text-decoration: none;
     font-size: 20px;
@@ -54,12 +54,12 @@ body{
     display: block;
     transition: 0.3s;
 }
-.sidenav a:hover{
+#MySideNav a:hover{
     color: #e7f0f3;
 }
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    #MySideNav {padding-top: 15px;}
+    #MySideNav a {font-size: 18px;}
 }
 
 #showcase{
