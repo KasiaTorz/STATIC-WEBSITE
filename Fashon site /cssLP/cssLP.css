@@ -57,6 +57,18 @@ body{
 #MySideNav a:hover{
     color: #e7f0f3;
 }
+#MySideNav .closebtn{
+    position: absolute;
+    top:0;
+    right: 25px;
+    font-size: 36px;
+    margin-left:50px;
+}
+ .closebtn{
+    margin-left:116px;
+    margin-top:-52px;
+
+}
 #main{
     transition: margin-left .5s;
     padding: 20px;
