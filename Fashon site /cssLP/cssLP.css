@@ -57,6 +57,10 @@ body{
 #MySideNav a:hover{
     color: #e7f0f3;
 }
+#main{
+    transition: margin-left .5s;
+    padding: 20px;
+}
 @media screen and (max-height: 450px) {
     #MySideNav {padding-top: 15px;}
     #MySideNav a {font-size: 18px;}
