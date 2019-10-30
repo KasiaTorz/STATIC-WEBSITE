@@ -6,12 +6,24 @@
     background-color: bisque;
     text-align: center;
 }
-.bg{
+
+#bg-1{
+    background-image: url("../img/1.jpg");
+    height: 100%;
+}
+ #bg-2,
+  #bg-3
+  
+  .bg{
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
-}
-.img-1, .img-2{
- width: 1688px;
- height: 1126px;
-}
+    background-attachment: fixed;
+   }
+
+div {
+    border: thin black solid;
+      height: 200px; /* 1 */
+    height: 90vh;
+  }
+
