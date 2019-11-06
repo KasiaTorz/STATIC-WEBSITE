@@ -83,4 +83,6 @@ img fpo{
   padding-top: 20%;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.headline{
+  grid-area: headline;
+}
