@@ -86,3 +86,9 @@ img fpo{
 .headline{
   grid-area: headline;
 }
+p{
+  margin-top: 0;
+}
+.fpo{
+  
+}
