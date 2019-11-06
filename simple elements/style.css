@@ -90,5 +90,7 @@ p{
   margin-top: 0;
 }
 .fpo{
+  display: inline-block;
+  width: 100%;
   
 }
