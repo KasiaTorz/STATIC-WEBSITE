@@ -97,3 +97,7 @@ img.fpo{
   padding-bottom: 20%;
   font-family: 'Courier New', Courier, monospace;
 }
+.layout-v1{
+  grid-template-areas: "image image image"
+                       "headline text text"
+}
