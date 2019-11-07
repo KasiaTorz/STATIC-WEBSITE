@@ -101,3 +101,7 @@ img.fpo{
   grid-template-areas: "image image image"
                        "headline text text"
 }
+.layout-v2{
+grid-template-areas: "image image headline"
+                     "image image text"
+}
