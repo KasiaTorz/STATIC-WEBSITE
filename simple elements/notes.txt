@@ -1,1 +1,6 @@
 My website will include:
+
+1. build the project
+#creating the folder;
+#adding files;
+#connecting files
