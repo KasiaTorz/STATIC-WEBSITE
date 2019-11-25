@@ -1,6 +1,9 @@
 My website will include:
 
-1. build the project
+1 step. build the project
 #creating the folder;
 #adding files;
 #connecting files
+
+2. creating navbar
+# 2 links and nameing
