@@ -5,5 +5,17 @@ My website will include:
 #adding files;
 #connecting files
 
-2. creating navbar
+2 step. creating navbar
 # 2 links and nameing
+
+3 step. portfolio with grid layout
+#images
+#titles
+#descriptions
+#animations
+#js functions
+
+4 step. about page creating
+#image
+#split columns layout
+#content
