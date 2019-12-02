@@ -7,3 +7,8 @@
 .left-side{
     display: flex;
 }
+.nav-wrapper >.left-side > div{
+   margin-right: 20px;
+   font-size: 0.9em;
+   text-transform: uppercase;
+}
