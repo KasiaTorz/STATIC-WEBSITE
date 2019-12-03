@@ -17,8 +17,11 @@
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
-..nav-link-wrapper a{
+.nav-link-wrapper a{
     color: #8a8a8a;
     text-decoration: none;
     transition: color 0.5s;
+}
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
 }
