@@ -7,7 +7,7 @@ body{
 }
 
 
-
+/* navbar*/
 .nav-wrapper{
     display: flex;
     justify-content: space-between;
@@ -37,3 +37,4 @@ body{
 .nav-link-wrapper a:hover{
     border-bottom:  black;
 }
+/* portfolio css*/
