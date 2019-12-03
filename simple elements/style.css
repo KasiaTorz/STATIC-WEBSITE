@@ -1,8 +1,10 @@
 body{
-  margin: 0px;
-    
+  margin: 0px;  
 }
-
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 
 
