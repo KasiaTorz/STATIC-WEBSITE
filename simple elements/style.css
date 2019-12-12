@@ -38,3 +38,10 @@ body{
     border-bottom:  black;
 }
 /* portfolio css*/
+.portfolio-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.portfolio-item-wrapper{
+    
+}
