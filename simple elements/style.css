@@ -45,3 +45,8 @@ body{
 .portfolio-item-wrapper{
     position: relative;
 }
+.portfolio-img-background{
+    height: 350px;
+    width: 100%;
+    
+}
