@@ -43,5 +43,5 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .portfolio-item-wrapper{
-    
+    position: relative;
 }
